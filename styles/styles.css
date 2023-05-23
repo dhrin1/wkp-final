@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.z-notif{
+    z-index: 8888;
+}
+
+.z-load{
+    z-index: 9999;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+
+
+  .order-status li { 
+    display: flex; 
+    color: #999;
+  }
+  
+  .order-status time { 
+    position: relative;
+    padding: 0 2em;  }
+  
+  .order-status time::after { 
+     content: "";
+     position: absolute;
+     z-index: 2;
+     right: 0;
+     top: 0;
+     transform: translateX(50%);
+     border-radius: 50%;
+     background: #fff;
+     border: 1px #ccc solid;
+     width: .8em;
+     height: .8em;
+  }
+  
+  
+  .order-status span {
+    padding: 0 1.5em 1.5em 1.5em;
+    position: relative;
+  }
+  
+  .order-status span::before {
+     content: "";
+     position: absolute;
+     z-index: 1;
+     left: 0;
+     height: 100%;
+     border-left: 1px #ccc solid;
+  }
+  
+  .order-status strong {
+     display: block;
+     font-weight: bolder;
+  }
+  
+  /* .order-status { margin: 1em; width: 60rem; } */
+  /* .order-status,  */
+  /* .order-status *::before,  */
+  /* .order-status *::after { box-sizing: border-box; font-family: arial; } */
+
+
+
