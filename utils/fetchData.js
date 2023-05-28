@@ -17,8 +17,9 @@ export const postData = async (url, post, token) =>{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            "Access-Control-Allow-Origin": "*",
-            'Authorization': token
+            'Authorization': token,
+            "Access-Control-Allow-Origin" : "*", 
+            "Access-Control-Allow-Credentials" : true 
         },
         body: JSON.stringify(post)
     })
@@ -32,7 +33,6 @@ export const putData = async (url, post, token) =>{
         headers: {
             'Content-Type': 'application/json',
             'Authorization': token,
-            "Access-Control-Allow-Origin": "*",
         },
         body: JSON.stringify(post)
     })
@@ -46,7 +46,6 @@ export const patchData = async (url, post, token) =>{
         headers: {
             'Content-Type': 'application/json',
             'Authorization': token,
-            "Access-Control-Allow-Origin": "*",
         },
         body: JSON.stringify(post)
     })
@@ -60,7 +59,6 @@ export const deleteData = async (url, token) =>{
         headers: {
             'Content-Type': 'application/json',
             'Authorization': token,
-            "Access-Control-Allow-Origin": "*",
         }
     })
     const data = await res.json()
