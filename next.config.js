@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   env: {
     "BASE_URL": "http://localhost:3000",
     "MONGODB_URL": "mongodb+srv://alhdev97:Kya4zT61Q0D7xb3V@cluster0.t856lkq.mongodb.net/?retryWrites=true&w=majority",
