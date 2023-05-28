@@ -1,3 +1,0 @@
-sandbox account
-email: sb-xnu43e16229428@personal.example.com
-pass: g)I1IX8n
