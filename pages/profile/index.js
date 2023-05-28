@@ -5,6 +5,7 @@ import ProfileLayout from '../../components/layouts/ProfileLayout'
 import { registerValidate } from '../../utils/dataValidation'
 import { patchData } from '../../utils/fetchData'
 import { FcPrivacy } from 'react-icons/fc'
+import Head from 'next/head'
 
 const Profile = () => {
 
@@ -64,6 +65,9 @@ const Profile = () => {
 
     return (
         <div>
+            <Head>
+                <title>Dashboard</title>
+            </Head>
             <div className="w-full">
                 <h2 className="text-black-tertiary font-bold tex-2xl uppercase">Your account</h2>
                 <p className="text-gray-tertiary text-sm font-semibold">Edit your profile</p>

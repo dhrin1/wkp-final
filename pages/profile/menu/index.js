@@ -10,6 +10,7 @@ import ModalRemove from '../../../components/modals/ModalRemove'
 import { BsTrashFill , BsArrowRightCircle } from 'react-icons/bs'
 import filterSearch from '../../../utils/filterSearch'
 import Filter from '../../../components/Filter'
+import Head from 'next/head'
 
 
 const Index = (props) => {
@@ -72,6 +73,9 @@ const Index = (props) => {
     if(!auth.user) return null;
     return (
         <div>
+            <Head>
+                <title>Dashboard</title>
+            </Head>
             <div className="w-full">
                 <h2 className="text-black-tertiary font-bold tex-2xl uppercase">Dashboard</h2>
                 <p className="text-gray-tertiary text-sm font-semibold">Menu</p>

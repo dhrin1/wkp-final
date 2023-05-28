@@ -91,7 +91,7 @@ const ProfileLayout = ({children}) => {
             <section className="bg-white mx-auto mt-24 max-w-6xl px-2 sm:px-3">
                 <div className="grid grid-cols-4 gap-5 ">
                     <div className="col-span-1 ">
-                        <div className="w-full inline-block mx-auto fixed">
+                        <div className="w-full inline-block mx-auto">
                             <div className="inline-flex items-center w-full gap-2">
                                 <div>
                                     <div className="h-24 w-24 object-center object-cover border-2 border-orange-primary p-1 rounded-full ">
@@ -113,7 +113,7 @@ const ProfileLayout = ({children}) => {
                                     
                                 </div>
                             </div>
-                            <ul className="mt-5 inline-flex">
+                            <ul className="mt-5">
                                 { sidenav.map((nav, idx)=>
                                      <div key={idx}>
                                          {nav.icon}

@@ -21,6 +21,9 @@ const OrderHistory = () => {
 
     return (
         <div>
+            <Head>
+                <title>Order</title>
+            </Head>
             <div className="w-full">
                 <h2 className="text-black-tertiary font-bold tex-2xl uppercase">Your account</h2>
                 <p className="text-gray-tertiary text-sm font-semibold">Order History</p>

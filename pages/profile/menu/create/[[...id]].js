@@ -153,7 +153,7 @@ const ProductManager = () => {
                                         <button type="button" onClick={()=>router.back()} className=" font-semibold text-sm inline-flex gap-2 ">
                                            Cancel
                                         </button>
-                                        <button type="submit"  className="px-2 h-9 bg-gradient-to-t from-green-700 to-green-600 rounded-md text-white" >{ onEdit ? 'Edit' : 'Create' }</button>
+                                        <button type="submit" className="px-2 h-9 bg-gradient-to-t from-green-700 to-green-600 rounded-md text-white" >{ onEdit ? 'Edit' : 'Create' }</button>
                                     </div>
                                     
                                 </div>
@@ -184,7 +184,7 @@ const ProductManager = () => {
                                         <option value="none" selected disabled> Select Duration</option>
                                         <option value="5"  >5 minutes</option>
                                         <option value="10">10 minutes</option>
-                                        <option value="20"  >20 minutes</option>
+                                        <option value="20">20 minutes</option>
                                     </select>
                                 </div>                  
                                 <div className="mt-2">
