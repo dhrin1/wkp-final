@@ -5,7 +5,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   env: {
-    "BASE_URL": "http://localhost:3000",
+    "BASE_URL": "https://wkp-final.vercel.app",
     "MONGODB_URL": "mongodb+srv://alhdev97:Kya4zT61Q0D7xb3V@cluster0.t856lkq.mongodb.net/?retryWrites=true&w=majority",
     "ACCESS_TOKEN_SECRET": "319873223219889434083973DDD",
     "REFRESH_TOKEN_SECRET": "9977o7932161113323434209C2m",
